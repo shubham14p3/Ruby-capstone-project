@@ -25,7 +25,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  colorize
+  colorize (~> 0.8.1)
   rubocop (~> 0.81.0)
 
 BUNDLED WITH
