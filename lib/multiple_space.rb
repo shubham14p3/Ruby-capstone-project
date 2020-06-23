@@ -7,7 +7,8 @@ module MultipleSpace
     matching_condition = /\S+\s{2,}\S/
     check = matching_condition =~ line_content
     if check
-      error_messages << "Multiple spaces found on line #{line_index + 1}".colorize(:yellow)
+	  error_messages << "Multiple spaces found on line #{line_index + 1}"
+	#   .colorize(:yellow)
     end
   end
 

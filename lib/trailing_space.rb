@@ -5,7 +5,8 @@ module Trailing
 
   def trailing_space(line_content, line_index, error_messages)
     matching_condition = /\s+\n/
-    error_messages << "Trailing white space found on line #{line_index + 1}".colorize(:blue) if matching_condition =~ line_content
+	error_messages << "Trailing white space found on line #{line_index + 1}" if matching_condition =~ line_content
+																		# .colorize(:blue)
   end
 
   public
