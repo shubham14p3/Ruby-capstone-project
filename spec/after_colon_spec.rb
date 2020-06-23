@@ -1,10 +1,10 @@
 # require '/home/opeyemi/Desktop/Microverse-Projects/Ruby-capstone-project/lib/after_colon.rb'
 require_relative '../lib/after_colon.rb'
-# require 'colorize'
+require 'colorize'
 # require_relative 'spec_helper.rb'
 
 include AfterColon
-# include Colorize
+include Colorize
 
 describe AfterColon do
   let(:file) { './style.css' }
