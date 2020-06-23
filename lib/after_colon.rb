@@ -1,4 +1,4 @@
-require 'colorize'
+# require 'colorize'
 
 module AfterColon
   def after_colon_check(line_content, line_index, error_messages)

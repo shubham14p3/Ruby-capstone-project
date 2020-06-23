@@ -1,5 +1,5 @@
 require_relative '../lib/multiple_space.rb'
-require 'colorize'
+# require 'colorize'
 
 include MultipleSpace
 # include Colorize

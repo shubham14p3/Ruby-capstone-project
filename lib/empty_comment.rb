@@ -1,4 +1,4 @@
-require 'colorize'
+# require 'colorize'
 
 module EmptyComment
   private
